@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Posicionamento</title>
+		<meta charset="utf-8" />
+		<style type="text/css">
+			body {
+				background: #61bd8c;
+				padding: 10px;
+			}
+			#conteudo-principal {
+				background: #FFFFFF;
+				padding: 10px;
+				width: 2500px;
+				margin: 30px auto;/*centralizar na tela*/
+			}
+			.caixa {
+				background: #1e6f44;
+				width: 100px;
+				height: 100px;
+				color: #FFFFFF;
+			}
+
+			#relativo {
+				position: relative;
+				left: -30px;
+				top: 0;
+				width: 660px;
+			}
+
+			#absoluto {
+				position: absolute;
+				bottom: 0;
+				left: 0;
+				width: 660px;
+			}
+
+			#fixo {
+				position: fixed;
+				width: 100%;
+				left: 0;
+				top: 0;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="conteudo-principal">
+			<h1>Posicionamento</h1>
+
+			<h4>Relative</h4>
+			<div id="relativo"class="caixa">Relative: Movimenta o elemento de acordo com a posição inicial.</div>
+
+			<h4>Absolute</h4>
+			<div id="absoluto" class="caixa">Absolute: Comporta-se como se não estivesse dentro do conteudo principal. O posicionamento é em relação ao parente mais próximo.</div>
+
+			<h4>Fixed</h4>
+			<div id="fixo" class="caixa">Fixed: Posiciona-se em relação a área de visualização do broswer.</div>
+		</div>
+	</body>
+</html>	
