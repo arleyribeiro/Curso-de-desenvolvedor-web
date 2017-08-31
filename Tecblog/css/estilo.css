@@ -1,0 +1,57 @@
+/*Limpar as formatações padrão*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 16;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #f3f3f3; 
+}
+
+#navegacao {
+	background: #fff;
+	border-bottom: 1px solid #d8d8d8;
+	height: 45px;
+}
+
+#area {
+	width: 720px;
+	margin: 0 auto;
+}
+
+#logo {
+	float: left;
+}
+
+#menu {
+	float: right;
+	padding: 10px;
+}
+
+/*Links do menu*/
+a {
+	padding: 5px;
+	text-decoration: none;
+}
+/*Links não visitados*/
+a:link {
+	color: #838383;
+}
+
+/*Links visitados*/
+a:visited {
+	color: #838383;
+}
+
+/*Links ativos*/
+a:hover {
+	background: #b9c941;
+	color: #fff;
+}
+
+/*Classes*/
+.verde {
+	color: #b9c941;
+}
