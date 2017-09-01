@@ -1,0 +1,14 @@
+body {
+	width: 900px;
+	margin: 0 auto;
+}
+
+#links {
+	float: right;
+	position: relative;
+	margin-top: 45px;
+}
+
+#rodape h4 {
+	text-align: center;
+}
